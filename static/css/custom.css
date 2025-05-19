@@ -1,0 +1,33 @@
+[data-theme=dark] {
+    color-scheme: dark;
+    --bg: #27272a;
+    --bg-light: #464949;
+    --text: #ededff;
+    --text-light: #DBD5BC;
+    --accent: #d8d8d5;
+    --accent-light: #87C9E5;
+    --accent-text: var(--bg);
+    --border: #DBD5BC;
+    --link: #007bff
+}
+body > footer {
+    color: var(--text);
+}
+.access-counter {
+    border: none;
+    margin: auto;
+}
+:root {
+    font-family: "M PLUS 1", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+ul li::marker {
+    content: normal;
+}
