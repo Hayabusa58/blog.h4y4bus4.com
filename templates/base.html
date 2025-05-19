@@ -56,6 +56,11 @@
         </main>
 
         <footer>
+            <!-- トップページにのみアクセスカウンタ表示 -->
+            {% if current_path is defined and current_path == "/"  %}
+            <hr>
+            <p class="access-counter"><img class="access-counter" src="https://kauntah-svg.vercel.app/counter.svg" referrerpolicy="origin" /> </p>
+            {% endif %}
             {% include "footer.html" %}
         </footer>
 

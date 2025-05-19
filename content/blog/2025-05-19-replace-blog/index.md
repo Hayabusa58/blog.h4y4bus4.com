@@ -70,7 +70,7 @@ SSG として [Zola](https://www.getzola.org/) を採用したのですが、Rus
 というかした。
 
 というわけでほぼ勢いで作ったブログですが、ちょっとずつコンテンツは移植していく予定です。
-あとカスタマイズしたテーマは以下の Github リポジトリに置いているのでご自由におつかいください。
+あとカスタマイズしたテーマは [Github リポジトリ](https://github.com/Hayabusa58/blog.h4y4bus4.com)に置いているのでご自由におつかいください。
 
-（Githubのリンクを貼る）
+
 <!-- ![alt text](./image.png) -->
