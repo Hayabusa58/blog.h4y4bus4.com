@@ -1,6 +1,6 @@
 +++
+title = "blog.h4y4bus4.com"
 +++
-
 
 # blog.h4y4bus4.com
 blog.h4y4bus4.com へようこそ。

@@ -4,6 +4,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="robots" content="index, follow">
+        <meta content="www.h4y4bus4.com" property="og:site_name" />
+        <!-- メタタグの設定 -->
+        <!-- page.title が空の場合、とりあえず config.title をいれておく -->
+        <meta content="{% if page.title %}{{ page.title }}{% else %}{{ config.title }}{% endif %}" property="og:title" />
+        <!-- page.description が空の場合、page.content の最初の50文字を切り出していれる。page.content も空なら設定しない -->
+        <meta content="{% if page.description%}{{ page.description }}{% elif page.content %}{{ page.content | spaceless | striptags | truncate(length=50) }}{% else %} {% endif %}" property="og:description" />
+        <meta name="theme-color" content="#ededff">
         {% block rss %}
         <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
         {% endblock %}
@@ -19,8 +26,6 @@
         <link rel="stylesheet" href="https://raw.githack.com/Speyll/suCSS/main/suCSS-min.css" crossorigin="anonymous">
         <link rel="stylesheet" href="{{ get_url(path='css/style.css') }}">
         <link rel="stylesheet" href="{{ get_url(path='css/custom.css') }}">
-
-        
 
         <!-- Add favicon with appropriate sizes -->
         <link rel="icon" href="{{ config.base_url }}/{{ config.extra.favicon | default(value='favicon.ico') }}">

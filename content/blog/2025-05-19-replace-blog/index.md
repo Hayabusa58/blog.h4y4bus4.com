@@ -1,5 +1,6 @@
 +++
 title = "blog.h4y4bus4.com 開設にあたって"
+description = "blog.h4y4bus4.com を作り、同時に公開していたサイト群を整理したよという話です。"
 [extra]
 display_published = false
 toc = false
