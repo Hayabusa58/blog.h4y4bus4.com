@@ -64,7 +64,14 @@
             <!-- トップページにのみアクセスカウンタ表示 -->
             {% if current_path is defined and current_path == "/"  %}
             <hr>
-            <p class="access-counter"><img class="access-counter" src="https://kauntah-svg.vercel.app/counter.svg" referrerpolicy="origin" /> </p>
+            <div style="text-align: center;">
+                <a class="banner" href="https://github.com/3846masa/kauntah-svg">
+                    <img class="banner" src="https://kauntah-svg.vercel.app/counter.svg" referrerpolicy="origin" />
+                </a>
+                <a class="banner" href="https://sites.google.com/view/happy-busy/">
+                    <img class="banner" src="{{ get_url(path='no_time.png') }}" alt="">
+                </a>
+            </div>
             {% endif %}
             {% include "footer.html" %}
         </footer>

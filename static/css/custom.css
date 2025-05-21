@@ -10,13 +10,22 @@
     --border: #DBD5BC;
     --link: #007bff
 }
+
 body > footer {
     color: var(--text);
 }
-.access-counter {
-    border: none;
-    margin: auto;
+
+a.banner:hover {
+    background-color: transparent;
+    color: transparent;
 }
+
+.banner {
+    margin: auto;
+    border: none;
+    display: inline-block;
+}
+
 :root {
     font-family: "M PLUS 1", sans-serif;
     font-optical-sizing: auto;
