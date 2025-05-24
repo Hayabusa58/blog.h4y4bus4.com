@@ -48,5 +48,6 @@ header_nav = [
   { url = "/", name_en = "/home/", name_ja = "/home/" },
   { url = "/about", name_en = "/about/", name_ja = "/about/" },
 #  { url = "/journal", name_en = "/journal/", name_ja = "/journal/" },
-  { url = "/blog", name_en = "/blog/", name_ja = "/blog/" }
+  { url = "/blog", name_en = "/blog/", name_ja = "/blog/" },
+  { url = "/article", name_en = "/article/", name_ja = "/article/" }
 ]
