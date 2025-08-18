@@ -7,8 +7,6 @@ date = "2022-10-03"
 ## 要約
 この記事では，MarkDownエディタ「Obsidian」のSelf-hosted LiveSyncプラグインのデータベースサーバーをVPS(Conoha)で使用する方法を記載しています。
 
-[Self-hosted LiveSyncのデータベースをVPS上で構築](#self-hosted-livesyncのデータベースをvps上で構築)から本題なので，そこまでは読み飛ばしていただいて大丈夫です。
-
 なお，こちらはあくまで趣味の範疇の記事であり，内容には十分注意していますが，誤りが含まれている可能性があります。
 
 このサイトにはコメント欄は設けていないので，質問やご指摘は[Twitter](https://twitter.com/h_ya58)までお寄せいただければと思います。
