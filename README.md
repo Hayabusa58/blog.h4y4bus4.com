@@ -3,13 +3,24 @@
 ## これは何
 - blog.h4y4bus4.com にホストされるコンテンツのリポジトリです。
 
-## 備忘: 手元でのライブプレビュー
+## コンテンツの追加
+blog への追加の場合
+```
+$ new-blog-post.sh <title>
+```
+
+article への追加の場合
+```
+$ new-article-post.sh <title>
+```
+
+## 手元でのライブプレビュー
 ```
 ## localhost:8080 
 $ docker run -u "$(id -u):$(id -g)" -v $PWD:/app --workdir /app -p 8080:8080 ghcr.io/getzola/zola:v0.19.1 serve --interface 0.0.0.0 --port 8080 --base-url localhost
 ```
 
-## 備忘: ビルドとデプロイ
+## ビルドとデプロイ
 ```
 $ git add .
 $ git commit -m "commmmit"
