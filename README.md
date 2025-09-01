@@ -3,6 +3,14 @@
 ## これは何
 - blog.h4y4bus4.com にホストされるコンテンツのリポジトリです。
 
+## 環境構築
+このリポジトリをクローンしたのち、以下のように submodule を初期化する。
+
+```
+$ git submodule init
+$ git submodule update --init
+```
+
 ## コンテンツの追加
 blog への追加の場合
 ```
