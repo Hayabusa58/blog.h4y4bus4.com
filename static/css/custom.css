@@ -40,3 +40,8 @@ h2, h3 {
 ul li::marker {
     content: normal;
 }
+
+img {
+    border: none;
+    border-radius: 0%;
+}
