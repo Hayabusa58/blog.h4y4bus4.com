@@ -1,12 +1,12 @@
 +++
-title = "blog.h4y4bus4.com"
+title = "blog.2haya.net"
 +++
 
-# blog.h4y4bus4.com
-blog.h4y4bus4.com へようこそ。
+# blog.2haya.net
+blog.2haya.net へようこそ。
 発言は個人のものであり、所属する組織とは一切関係がありません。
 
-私についてはまず [www.h4y4bus4.com](https://www.h4y4bus4.com) をご覧ください。
+私についてはまず [www.2haya.net](https://www.2haya.net) をご覧ください。
 
 ## ナビゲーション
 - [about](./about): いわゆる自己紹介です。
