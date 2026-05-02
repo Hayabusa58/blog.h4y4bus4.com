@@ -38,7 +38,7 @@ internal_level = "warn"
 # Extra
 [extra]
 author = "h4y4bus4"
-favicon = "favicon.ico"
+favicon = "favicon.png"
 list_pages = false
 twitter_card = true
 enable_search = true
