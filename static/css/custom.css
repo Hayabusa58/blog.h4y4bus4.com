@@ -11,6 +11,19 @@
     --link: #007bff
 }
 
+[data-theme=light] {
+    color-scheme: light;
+    --bg: #f8f9fa;
+    --bg-light: #ffffff;
+    --text: #1a1a1a;
+    --text-light: #333;
+    --accent: #333;
+    --accent-light: #007bff;
+    --accent-text: #ffffff;
+    --border: #ddd;
+    --link: #007bff
+}
+
 body > footer {
     color: var(--text);
 }
